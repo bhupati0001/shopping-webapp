@@ -46,7 +46,7 @@
 
 .productDisplay-right-price{
     display: flex;
-    margin: 40px 0px;
+    margin: 10px 0px;
     gap: 30px;
     font-size: 24px;
     font-weight: 700;
@@ -66,6 +66,7 @@
     color: #656565;
     font-size: 20px;
     font-weight: 600;
+    padding: 0;
 }
 .productDisplay-right-sizes{
     display: flex;
@@ -88,4 +89,16 @@
     font-weight: 600;
     color: white;
     background: #ff4141;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productDisplay-right-category{
+    margin-top: 10px;
+}
+
+.productDisplay-right-category span{
+    font-weight: 600;
 }
